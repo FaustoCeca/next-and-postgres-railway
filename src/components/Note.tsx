@@ -82,7 +82,6 @@ const Note = ({ note }: NoteProps) => {
                         </>
                     )
                 }
-
               <DeleteBtn 
                 id={Number(note.id)}
               />
